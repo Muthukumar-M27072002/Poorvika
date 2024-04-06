@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.SideBar {
+  width: 20%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid blue;
+  box-shadow: 10px 10px 10px rgb(75, 72, 72) !important; 
+}
+
+
+.main-page {
+  width: 80%;
+  background-color: #fff;
+  padding: 20px;
+  padding-top: 140px;
+}
+
+.title-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primary-btn {
+  background-color: #FB6C00 !important;
+  height: 44px;
+  border-radius: 10px !important;
+}
+
+.das-div {
+  display: flex;
+  align-items: center;
+}
+.das-div p{
+  padding-left: 10px;
+}
